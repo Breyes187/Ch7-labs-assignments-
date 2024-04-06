@@ -4,38 +4,67 @@ Brandon Reyes
 File Name: styles07.css
 */
 
-/* CSS Reset */
-body, header, main, footer, h1, h3, section, article {
+/* Reset styles */
+body, header, main, footer, h1, h3, section, article, aside, p {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-/* Style rule for body */
+/* Body styles */
 body {
-	background-color: #dfe7c4;
+    font-family: Arial, sans-serif;
+    background-color: #dfe7c4;
+    color: #333;
 }
 
-/* Style rule for header */
+/* Header styles */
 header {
-	font-family: Verdana, Arial, sans-serif;
-	margin-top: 0.2em;
-	background-color: #628c45;
-	color: #dfe7c4;
-	padding: 2%;
+    background-color: #628c45;
+    color: #fff;
+    padding: 20px;
     text-align: center;
 }
 
-/* Style rules for main content  */
+/* Main content styles */
 main {
-	background-color: #fff;
+    padding: 20px;
 }
 
+/* Article styles */
+article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Aside styles */
 aside {
-    padding: 2%;
+    padding: 20px;
 }
 
+/* Footer styles */
 footer {
-	font-size: .70em;
-	text-align: center;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Link styles */
+a {
+    color: #628c45;
+}
+
+/* Link hover styles */
+a:hover {
+    text-decoration: underline;
 }
